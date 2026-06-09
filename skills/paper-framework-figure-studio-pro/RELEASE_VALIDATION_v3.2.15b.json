@@ -1,0 +1,29 @@
+{
+  "version": "3.2.15b",
+  "hotfix": "response_checkpoint_zip_gate_source_faithful_prompt_audit_clean_release",
+  "checks": {
+    "python_compile": "PASS",
+    "response_checkpoint_zip_gate_cli_help": "PASS",
+    "response_checkpoint_zip_gate_fallback_smoke_test": "PASS",
+    "top_priority_origin_reply_section_scan": "PASS",
+    "source_faithful_prompt_audit_rule_scan": "PASS",
+    "patch_report_pruning_scan": "PASS",
+    "release_path_scan": "PASS"
+  },
+  "policy_summary": {
+    "version_label_unchanged": true,
+    "design_origin_top_priority": true,
+    "text_response_checkpoint_zip_gate": true,
+    "checkpoint_zip_requires_metadata": [
+      "checkpoint-manifest.json",
+      "checkpoint-cumulative-integrity.json",
+      "checkpoint-integrity-audit.json"
+    ],
+    "prompt_source_fidelity_required": true,
+    "symbol_disambiguation_required": true,
+    "on_demand_reference_loading": true,
+    "patch_reports_pruned_from_clean_release": true,
+    "s5_second_round_cap": 8
+  },
+  "status": "PASS"
+}
