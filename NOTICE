@@ -1,0 +1,54 @@
+NOTICE — Third-Party Components and Attribution
+================================================
+
+This repository is a non-commercial collection of independently authored
+Claude Code skills and plugins. Each component is the work of its original
+author and is redistributed here under its own license. The license text for
+each component is retained inside its own subdirectory (LICENSE / NOTICE.md).
+This top-level NOTICE summarizes provenance; it does not replace or override
+any component's own license.
+
+Components
+----------
+
+skills/paper-framework-figure-studio-pro
+  Version : 3.2.15b
+  Author  : c-narcissus
+  Source  : https://github.com/c-narcissus/paper-framework-figure-studio-pro
+  License : MIT-0 (see skills/paper-framework-figure-studio-pro/LICENSE)
+
+skills/drawio-skill
+  Version : 1.14.0
+  Author  : Agents365-ai
+  Source  : https://github.com/Agents365-ai/drawio-skill
+  License : MIT (see skills/drawio-skill/ upstream)
+
+skills/research-paper-writing
+  Author  : Master-cai
+  Source  : https://github.com/Master-cai/Research-Paper-Writing-Skills
+  License : MIT
+  Note    : Methodology based on Prof. Peng Sida's open study notes.
+
+plugins/nature-skills
+  Version : 1.0.0
+  Author  : Yuan1z0825
+  Source  : https://github.com/Yuan1z0825/nature-skills
+  License : MIT (see plugins/nature-skills/LICENSE)
+  Note    : Bundles 10 skills, including the nature-academic-search MCP server.
+
+plugins/academic-research-skills  (ARS)
+  Version : 3.12.0
+  Author  : Imbad0202 (Edward Cheng-I Wu)
+  Source  : https://github.com/Imbad0202/academic-research-skills
+  License : CC BY-NC 4.0  —  NON-COMMERCIAL USE ONLY, ATTRIBUTION REQUIRED
+            (see plugins/academic-research-skills/LICENSE and NOTICE.md)
+
+Important
+---------
+plugins/academic-research-skills is licensed CC BY-NC 4.0. You may share and
+adapt it for NON-COMMERCIAL purposes with appropriate attribution. Commercial
+use is not permitted under that license. All other components are MIT / MIT-0.
+Respect each upstream license for any reuse or redistribution.
+
+The `visiomaster` skill (Windows + Microsoft Visio only) is intentionally not
+included in this collection.
