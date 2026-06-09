@@ -29,6 +29,18 @@ skills/research-paper-writing
   License : MIT
   Note    : Methodology based on Prof. Peng Sida's open study notes.
 
+skills/paper-polish-pipeline
+  Version : 1.0
+  Author  : Original work written for this repository.
+  License : MIT
+  Note    : This skill (the SKILL.md and reference templates) is original packaging
+            authored for this collection. Its staged methodology — a 7-step polishing
+            workflow (diagnose, intro/lit-review, methods, results/discussion,
+            abstract/contributions, language polish, risk check) — is adapted from a
+            publicly shared Chinese article on AI-assisted paper polishing. The wording,
+            structure, bilingual rewrite, integrity guardrails, and mode design are this
+            repository's own; no text was copied verbatim from the source article.
+
 plugins/nature-skills
   Version : 1.0.0
   Author  : Yuan1z0825
