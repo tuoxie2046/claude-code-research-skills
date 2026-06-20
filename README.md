@@ -2,7 +2,7 @@
 
 A curated collection of **Claude Code** skills and plugins for academic / research paper workflows — figures, writing, polishing, peer-review simulation, literature search, and full research→write→review pipelines.
 
-> This is a personal install bundle. Most components are third-party work; original authorship and licenses are preserved. One skill, `paper-polish-pipeline`, is an original workflow packaging written for this collection (its staged methodology is adapted from a public article — see **Attribution & Licenses**). `visiomaster` is intentionally excluded (Windows + Microsoft Visio only — not usable on macOS/Linux).
+> This is a personal install bundle. Most components are third-party work; original authorship and licenses are preserved. Three skills — `paper-polish-pipeline`, `gpt-image`, and `nano-banana` — are original work written for this collection (`paper-polish-pipeline`'s staged methodology is adapted from a public article — see **Attribution & Licenses**). `visiomaster` is intentionally excluded (Windows + Microsoft Visio only — not usable on macOS/Linux).
 
 ## Contents
 
@@ -14,6 +14,8 @@ A curated collection of **Claude Code** skills and plugins for academic / resear
 | `drawio-skill` | 1.14.0 | Generate editable `.drawio` diagrams, export PNG/SVG/PDF/JPG via draw.io CLI | [Agents365-ai/drawio-skill](https://github.com/Agents365-ai/drawio-skill) | MIT |
 | `research-paper-writing` | — | ML/CV/NLP paper writing quality (section structure, flow, self-review) | [Master-cai/Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills) | MIT |
 | `paper-polish-pipeline` | 1.0 | Bilingual staged paper-polishing pipeline: diagnose → section optimize → abstract/contributions → language polish (reduce AI-sounding phrasing) → pre-submission/defense risk check, with research-integrity guardrails | **Original** for this repo (methodology adapted from a public article) | MIT |
+| `gpt-image` | 1.0 | Generate / edit / describe / batch images from the terminal via OpenClaw + OpenAI **gpt-image-2** (ChatGPT/Codex subscription); good for figures, diagrams, infographics | **Original** for this repo | MIT |
+| `nano-banana` | 1.0 | Generate / batch images via Google **nano-banana** (Gemini image) through the Antigravity CLI (`agy`); strong in-image text rendering for posters/infographics | **Original** for this repo | MIT |
 
 ### `plugins/` — Claude Code plugins (install via plugin marketplace)
 
