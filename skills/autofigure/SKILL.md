@@ -51,6 +51,7 @@ Heavy assets (the `afe_venv`, `sam3.pt`, RMBG weights, the AutoFigure-Edit repo)
 
 ## Commands (scripts/)
 
+- `install.sh` — one-time backend install (venv + repos + SAM3 + RMBG + HF cache seed); see Setup.
 - `doctor.sh` — verify the install is ready.
 - `gen.sh "<prompt>" <out.png> [landscape|square|portrait]` — step-1 raster via gpt-image-2.
 - `afe.sh <input.png> <out_dir> [sam_prompt] [svg_model]` — the AutoFigure-Edit vectorizer.
@@ -74,7 +75,18 @@ Heavy assets (the `afe_venv`, `sam3.pt`, RMBG weights, the AutoFigure-Edit repo)
 
 ## Setup (if doctor.sh reports ✗)
 
-The pipeline expects a one-time local install under `AUTOFIG_HOME` (`~/apps/autofig_work`):
+**One-command install** (builds the venv, clones the repos, installs SAM3, downloads the
+SAM3 + RMBG-2.0 weights, seeds the HF cache):
+
+```bash
+HF_TOKEN=hf_xxx bash ~/.claude/skills/autofigure/scripts/install.sh   # [AUTOFIG_HOME]
+```
+
+`HF_TOKEN` is required (briaai/RMBG-2.0 is gated — request access first, then make a read
+token). You still install the driver CLIs yourself: `hermes` (gpt-image-2), `openclaw`
+(gpt-5.5), and Google Chrome. `install.sh` is idempotent (skips anything already present).
+
+What it lays down under `AUTOFIG_HOME` (`~/apps/autofig_work`):
 - `afe_venv` — Python 3.11 venv with `torch torchvision timm transformers kornia pillow cairosvg`
   plus SAM3 installed editable (`pip install -e` from facebookresearch/sam3).
 - `sam3.pt` — the SAM3 checkpoint, **symlinked into the HF cache** so offline mode finds it:
