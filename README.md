@@ -16,6 +16,7 @@ A curated collection of **Claude Code** skills and plugins for academic / resear
 | `paper-polish-pipeline` | 1.0 | Bilingual staged paper-polishing pipeline: diagnose → section optimize → abstract/contributions → language polish (reduce AI-sounding phrasing) → pre-submission/defense risk check, with research-integrity guardrails | **Original** for this repo (methodology adapted from a public article) | MIT |
 | `gpt-image` | 1.0 | Generate / edit / describe / batch images from the terminal via OpenClaw + OpenAI **gpt-image-2** (ChatGPT/Codex subscription); good for figures, diagrams, infographics | **Original** for this repo | MIT |
 | `nano-banana` | 1.0 | Generate / batch images via Google **nano-banana** (Gemini image) through the Antigravity CLI (`agy`); strong in-image text rendering for posters/infographics | **Original** for this repo | MIT |
+| `autofigure` | 1.0 | Editable vector paper figures (method/architecture/pipeline): OpenAI **gpt-image-2** raster → local SAM3 + RMBG-2.0 + OpenAI **gpt-5.5** SVG re-draw → editable SVG + margin-free PDF | wrapper **original** for this repo; underlying tool [ResearAI/AutoFigure-Edit](https://github.com/ResearAI/AutoFigure-Edit) | MIT (wrapper) |
 
 ### `plugins/` — Claude Code plugins (install via plugin marketplace)
 
